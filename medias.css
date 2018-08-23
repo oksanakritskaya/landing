@@ -1,0 +1,130 @@
+@media (max-width: 1670px) {
+    .main-container__title > strong {
+        font-size: 90px;
+        margin: 0 0 30px;
+    }
+}
+@media (max-width: 1370px) {
+    .main-container__title > strong {
+        font-size: 80px;
+        margin: 0 0 30px;
+    }
+}
+@media (max-width: 1300px) {
+    .wrapper {
+        max-width: 722px;
+    }
+    .main-container {
+        padding: 20px 0 196px;
+    }
+    .main-menu {
+        margin-right: 24px;
+    }
+    .drop-dawn__button {
+        width: 16px;
+        height: 12px;
+    }
+    .drop-dawn__button:before {
+        top: 3px;
+    }
+    .drop-dawn__cross:before, .drop-dawn__cross:after {
+        top: auto;
+        left: 6px;
+    }
+    .main-link {
+        font-size: 14px;
+    }
+    .contacts-tel {
+        font-size: 14px;
+    }
+    .contacts-text {
+        font-size: 12px;
+    }
+    .main-menu__link {
+        margin-right: 30px;
+    }
+    .main-container__text {
+        margin: 87px auto 10px;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    .page-title {
+        font-size: 28px;
+    }
+    .main-container__title {
+        line-height: 1.7;
+    }
+    .main-container__title > strong {
+        font-size: 70px;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+    .button {
+        font-size: 13px;
+    }
+    .path {
+        transform: scaleY(1);
+    }
+    .catalog {
+        padding: 53px 0 55px;
+    }
+    .catalog__table {
+        flex-flow:column wrap;
+    }
+    .catalog__title {
+        margin-bottom: 5px;
+    }
+    .catalog__item .catalog__main-item, .catalog__small-item {
+        height: 500px;
+    }
+    .catalog__main-item, .catalog__small-item {
+        height: auto;
+        padding: auto;
+    }
+    .catalog__item--desktop {
+        order: 4;
+    }
+    /*.catalog__main-item {
+        order: 1;
+    }
+    .catalog__small-item--first {
+        order: 2;
+    }
+    .catalog__small-item {
+        order: 3;
+    }*/
+    /*.catalog__item:nth-child(odd) {
+        padding: 0 15px 0 0;
+    }
+    .catalog__item:nth-child(even) {
+        padding: 0 0 0 15px;
+    }*/
+    .catalog__item--last {
+        display: none;
+    }
+    .ribbon {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    .catalog__table {
+        margin: 20px 0 30px;
+    }
+    .footer__social--title {
+        font-size: 14px;
+    }
+    .footer__social--item {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+    .vk:before, .ok:before, .yt:before, .insta:before {
+        width: 30px;
+        height: 30px;
+    }
+    .footer__company-name {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
