@@ -19,6 +19,7 @@ color: #13b0e9; - синий
 color: #64d6ff; - голубой
 
  */
+
 html, body, nav, menu {
     padding: 0;
     margin: 0;
@@ -73,10 +74,6 @@ header {
     border-top: 2px solid rgba(0,0,0,0.3);
     border-bottom: 2px solid rgba(0,0,0,0.3);
 }
-.drop-dawn__button:hover, .drop-dawn__button:focus {
-    border-top: 2px solid rgba(0,0,0,0.7);
-    border-bottom: 2px solid rgba(0,0,0,0.7);
-}
 .drop-dawn__button:before {
     position: absolute;
     content: '';
@@ -85,9 +82,6 @@ header {
     width: 100%;
     height: 2px;
     background: rgba(0,0,0,0.3);
-}
-.drop-dawn__button:hover:before, .drop-dawn__button:focus:before {
-    background: rgba(0, 0, 0, 0.7);
 }
 .drop-dawn__cross {
     height: 20px;
@@ -104,10 +98,6 @@ header {
     height: 100%;
     width: 2px;
     background-color: rgba(0,0,0,0.3);
-}
-.drop-dawn__cross:hover, .drop-dawn__cross:focus {
-    border: none;
-    background: transparent;
 }
 .drop-dawn__cross:before {
     transform: rotate(-45deg);
@@ -143,9 +133,6 @@ header {
 }
 .drop-dawn__menu--link:last-child {
     margin: 0;
-}
-.drop-dawn__menu--link:hover, .drop-dawn__menu--link:focus, .drop-dawn__menu--link:active {
-    text-decoration: underline;
 }
 .header__menu {
     display: flex;

@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Raleway">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="medias.css">
+    <title>Landing</title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="wrapper header">
+            <div class="drop-dawn__menu">
+                <button class="drop-dawn__button"></button>
+                <menu class="drop-dawn__menu--open">
+                    <a href="" class="drop-dawn__menu--link">Популярные маршруты</a>
+                    <a href="" class="drop-dawn__menu--link">Расписание рейсов</a>
+                    <a href="" class="drop-dawn__menu--link">Забронированные рейсы</a>
+                    <a href="" class="drop-dawn__menu--link">Вход для партнеров</a>
+                    <a href="" class="drop-dawn__menu--link">О компании</a>
+                    <a href="" class="drop-dawn__menu--link">Контакты</a>
+                </menu>
+            </div>
+            <div class="header__menu">
+                <nav class="main-menu">
+                    <a href="#" class="link main-link link__arrow-up main-menu__link main-menu__link--user">Личный кабинет</a href="#">
+                    <a href="#" class="link main-link link__arrow-up main-menu__link main-menu__link--currency">Рубль</a href="#">
+                    <a href="#" class="link main-link link__arrow-up main-menu__link main-menu__link--arrow-up">Ru</a href="#">
+                </nav>
+                <div class="header__contacts">
+                    <a class="header__contacts--tel" href="tel:+88005006105">8 800 500-61-05</a>
+                    <span class="header__contacts--text">Круглосуточная поддержка</span>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper main-container__text">
+            <img src="images\logo.png" alt="logo" class="logo">
+            <h1 class="page-title main-container__title">Морские прогулки<strong>По чёрному морю</strong></h1>
+            <button class="button">Выбрать круиз</button>
+        </div>
+        <div class="path"></div>
+    </div>
+    <main class="catalog">
+        <div class="wrapper">
+            <h3 class="page-title catalog__title">Каталог круизов</h3>
+            <span class="link main-link catalog__filter">Сортировать круизы по
+                <a href="" class="link main-link link__arrow-up catalog__filter--select">цене</a>
+            </span>
+            <div class="catalog__table">
+                <article class="catalog__item catalog__main-item catalog-item">
+                    <img class="catalog-item__img catalog-item__main-img" src="images/desktop/1.jpg" alt="cruise image">
+                    <!--<picture class="catalog-item__img catalog-item__main-img">
+                        <source media="(max-width: 1300px)" srcset="images/tablet/1.jpg">
+                        <img src="images/desktop/1.jpg" alt="cruise image">
+                    </picture>-->
+                    <div class="catalog-item__info">
+                        <header>
+                            <a class="link link__arrow-right catalog-item__title" onclick="openPopup(1)">Морской круиз в Анапу</a>
+                        </header>
+                        <dl class="catalog-item__descr">
+                            <dt>Маршрут:</dt>
+                            <dd>Сочи-Лазаревское-Геленджик-Анапа</dd>
+                            <dt>Продолжительность:</dt>
+                            <dd>10 ч. 0 мин.</dd>
+                        </dl>
+                        <div class="catalog-item__price">
+                            <span class="catalog-item__main-price">49 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="ribbon bestseller">Хит продаж</div>
+                </article>
+                <article class="catalog__item catalog-item">
+                    <img class="catalog-item__img" src="images/desktop/4.jpg" alt="cruise image">
+                    <!--<picture class="catalog-item__img">
+                        <source media="(max-width: 1300px)" srcset="images/tablet/4.jpg">
+                        <img src="images/desktop/4.jpg" alt="cruise image">
+                    </picture>-->
+                    <div class="catalog-item__info">
+                        <header>
+                            <a class="link link__arrow-right catalog-item__title" onclick="openPopup(4)">Морской круиз в Новороссийск</a>
+                        </header>
+                        <dl class="catalog-item__descr">
+                            <dt>Маршрут:</dt>
+                            <dd>Сочи-Геленджик-Новороссийск-Геленджик-Сочи</dd>
+                            <dt>Продолжительность:</dt>
+                            <dd>13 ч. 0 мин.</dd>
+                        </dl>
+                        <div class="catalog-item__price">
+                            <span class="catalog-item__main-price">14 800 руб.</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item catalog__small-item catalog-item">
+                    <img class="catalog-item__img catalog-item__small-img" src="images/desktop/2.jpg" alt="cruise image">
+                    <!--<picture class="catalog-item__img catalog-item__small-img">
+                        <source media="(max-width: 1300px)" srcset="images/tablet/2.jpg">
+                        <img src="images/desktop/2.jpg" alt="cruise image">
+                    </picture>-->
+                    <div class="catalog-item__info">
+                        <header>
+                            <a class="link link__arrow-right catalog-item__title" onclick="openPopup(2)">Обзорная морская прогулка с экскурсией</a>
+                        </header>
+                        <dl class="catalog-item__descr">
+                            <dt>Маршрут:</dt>
+                            <dd>Сочи-Адлер-Сочи (без высадки)</dd>
+                            <dt>Продолжительность:</dt>
+                            <dd>1 ч. 0 мин.</dd>
+                        </dl>
+                        <div class="catalog-item__price">
+                            <span class="catalog-item__main-price">5 000 руб.</span>
+                            <span class="catalog-item__old-price">15000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="ribbon sale">Акция</div>
+                </article>
+                <article class="catalog__item catalog__small-item catalog-item">
+                    <img class="catalog-item__img catalog-item__small-img" src="images/desktop/3.jpg" alt="cruise image">
+                    <!--<picture class="catalog-item__img catalog-item__small-img">
+                        <source media="(max-width: 1300px)" srcset="images/tablet/3.jpg">
+                        <img src="images/desktop/3.jpg" alt="cruise image">
+                    </picture>-->
+                    <div class="catalog-item__info">
+                        <header>
+                            <a class="link link__arrow-right catalog-item__title" onclick="openPopup(3)">Морская прогулка в Геленджик</a>
+                        </header>
+                        <dl class="catalog-item__descr">
+                            <dt>Маршрут:</dt>
+                            <dd>Сочи-Туапсе-Геленджик</dd>
+                            <dt>Продолжительность:</dt>
+                            <dd>12 ч. 30 мин.</dd>
+                        </dl>
+                        <div class="catalog-item__price">
+                            <span class="catalog-item__main-price">7 000 руб.</span>
+                            <span class="catalog-item__old-price">10000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="ribbon sale">Скидка 10%</div>
+                </article>
+                <article class="catalog__item catalog__item--last catalog-item">
+                    <img class="catalog-item__img" src="images/desktop/5.jpg" alt="cruise image">
+                    <div class="catalog-item__info">
+                        <header>
+                            <a class="link link__arrow-right catalog-item__title" onclick="openPopup(5)">Морская прогулка в Абрау-Дюрсо</a>
+                        </header>
+                        <dl class="catalog-item__descr">
+                            <dt>Маршрут:</dt>
+                            <dd>Сочи-Абрау-Дюрсо</dd>
+                            <dt>Продолжительность:</dt>
+                            <dd>11 ч. 0 мин.</dd>
+                        </dl>
+                        <div class="catalog-item__price">
+                            <span class="catalog-item__main-price">14 800 руб.</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <button class="button button-arrow">Больше круизов</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <ul class="footer__menu">
+                <a class="link main-link footer__menu--link">Вход для парнеров</a>
+                <a class="link main-link footer__menu--link">О компании</a>
+                <a class="link main-link footer__menu--link">Контакты</a>
+            </ul>
+            <div class="footer__social">
+                <span class="footer__social--title">Будь на связи:</span>
+                <div class="footer__social--list">
+                    <a href="" title="vkontakte" class="footer__social--item vk"></a>
+                    <a href="" title="odnoklassniki" class="footer__social--item ok"></a>
+                    <a href="" title="youtube" class="footer__social--item yt"></a>
+                    <a href="" title="instagram" class="footer__social--item insta"></a>
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <a class="footer__contacts--tel" href="tel:+88005006105">8 800 500-61-05</a>
+                <span class="footer__contacts--text">Круглосуточная поддержка</span>
+                <span class="footer__company-name">© 2016 ООО «Городский Круизы»</span>
+            </div>
+        </div>
+    </footer>
+    <div class="popup" style="display:none;">
+        <div class="popup__content">
+            <button class="cross" type="button"></button>
+            <div class="popup__images">
+                <img src="images/card.jpg" alt="cruise image" class="popup__images--main-img">
+                <img src="images/preview/1.jpg" alt="cruise image" class="popup__images--img">
+                <img src="images/preview/2.jpg" alt="cruise image" class="popup__images--img">
+                <img src="images/preview/3.jpg" alt="cruise image" class="popup__images--img">
+                <img src="images/preview/4.jpg" alt="cruise image" class="popup__images--img">
+            </div>
+            <div class="popup__text">
+                <span class="popup__title"></span>
+                <dl class="popup__descr">
+                    <dt>Маршрут:</dt>
+                    <dd class="popup__descr--route">Сочи-Абрау-Дюрсо</dd>
+                    <dt>Продолжительность:</dt>
+                    <dd class="popup__descr--duration">11 ч. 0 мин.</dd>
+                </dl>
+                <dl class="popup__timetable">
+                    <dt class="popup__timetable--name">Расписание:</dt>
+                    <dd>Отправление из Сочи:</dd>
+                    <dd>ежедневно в 10:00, 11:40, 13:20, 15:00, 16:40</dd>
+                    <dd>Отправление из Абрау-Дюрсо:</dd>
+                    <dd>ежедневно в 12:25, 14:05, 15:45, 17:25, 19:05</dd>
+                    <dd>Продолжительность:</dd>
+                    <dd>11 часов 0 мин., из которых 10 часов - морская прогулка (туда и обратно), от 1 часа 30 мин. - свободное время в Ласточкином гнезде</dd>
+                    <dd>Причал отправления/прибытия:</dd>
+                    <dd>набережная Ленина, причал №8, теплоход "Азов"</dd>
+                </dl>
+                <span class="popup__main-price"></span>
+                <button class="button popup__button">Бронирование</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
