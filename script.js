@@ -51,7 +51,7 @@ document.querySelector('.drop-dawn__button').addEventListener('click', () => {
 });
 
 function openPopup(num) {
-    document.querySelector('.popup').style.display = 'inline';
+    document.querySelector('.popup').style.display = 'flex';
     document.body.style.overflow = 'hidden';
     document.querySelector('.popup__title').innerHTML = cruises[num-1].name;
     document.querySelector('.popup__descr--route').innerHTML = cruises[num-1].route;
@@ -75,6 +75,9 @@ document.querySelector('.cross').addEventListener('click', () => {
     document.querySelector('.popup').style.display = 'none';
     document.body.style.overflow = 'auto';
 });
+
+var cardTemplate = document.getElementById('card-template').content.cloneNode(true);
+var card = cardTemplate.querySelector('.card');
 
 /*window.addEventListener('resize', function(event){
     if(window.innerWidth <= 1300) {

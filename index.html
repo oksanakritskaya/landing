@@ -28,15 +28,9 @@
             </div>
             <div class="header__menu">
                 <nav class="main-menu">
-                    <button class="button-link main-menu__link main-menu__link--user">
-                        <span class="main-button__span button-link__span">Личный кабинет</span>
-                    </button>
-                    <button class="button-link main-button-link main-menu__link main-menu__link--currency">
-                        <span class="button-link__span">Рубль</span>
-                    </button>
-                    <button class="button-link main-button-link ink__arrow-up main-menu__link main-menu__link--arrow-up">
-                        <span class="button-link__span">Ru</span>
-                    </button>
+                    <button class="button-link button-link__arrow-down main-menu__link main-menu__link--user">Личный кабинет</button>
+                    <button class="button-link button-link__arrow-down main-menu__link main-menu__link--currency">Рубль</button>
+                    <button class="button-link button-link__arrow-down main-menu__link main-menu__link--arrow-up">Ru</button>
                 </nav>
                 <div class="header__contacts">
                     <a class="header__contacts--tel" href="tel:+88005006105">8 800 500-61-05</a>
@@ -55,12 +49,11 @@
         <div class="wrapper">
             <h3 class="page-title catalog__title">Каталог круизов</h3>
             <span class="link main-link catalog__filter">Сортировать круизы по
-                <a href="" class="link main-link link__arrow-up catalog__filter--select">цене</a>
+                <button class="button-link button-link__arrow-down catalog__filter--select">цене</button>
             </span>
             <div class="catalog__table">
                 <article class="catalog__item catalog__main-item catalog-item">
                     <div class="catalog-item__content">
-                        <!--<img class="catalog-item__img catalog-item__main-img" src="images/desktop/1.jpg" alt="cruise image">-->
                         <picture class="catalog-item__img catalog-item__main-img">
                             <source media="(max-width: 1300px)" srcset="images/tablet/1.jpg">
                             <img src="images/desktop/1.jpg" alt="cruise image">
@@ -68,7 +61,7 @@
                         <div class="catalog-item__info">
                             <header class="catalog-item__header">
                                 <button class="button-link catalog-item__title" onclick="openPopup(1)">
-                                    <span class="button-link__span button-link__arrow-right">Морской круиз в Анапу</span>
+                                    <span class="button-link__arrow-right">Морской круиз в Анапу</span>
                                 </button>
                             </header>
                             <dl class="catalog-item__descr">
@@ -87,7 +80,6 @@
                 <div class="double-article">
                     <article class="catalog__item catalog__small-item catalog-item">
                         <div class="catalog-item__content">
-                            <!--<img class="catalog-item__img catalog-item__small-img" src="images/desktop/2.jpg" alt="cruise image">-->
                             <picture class="catalog-item__img catalog-item__small-img">
                                 <!--<source media="(max-width: 1300px)" srcset="images/tablet/2.jpg">-->
                                 <img src="images/desktop/2.jpg" alt="cruise image">
@@ -114,7 +106,6 @@
                     </article>
                     <article class="catalog__item catalog__small-item catalog-item">
                         <div class="catalog-item__content">
-                            <!--<img class="catalog-item__img catalog-item__small-img" src="images/desktop/3.jpg" alt="cruise image">-->
                             <picture class="catalog-item__img catalog-item__small-img">
                                 <source media="(max-width: 1300px)" srcset="images/tablet/3.jpg">
                                 <img src="images/desktop/3.jpg" alt="cruise image">
@@ -122,7 +113,7 @@
                             <div class="catalog-item__info">
                                 <header class="catalog-item__header">
                                     <button class="button-link catalog-item__title" onclick="openPopup(3)">
-                                        <span class="link__arrow-right">Морская прогулка в Геленджик</span>
+                                        <span class="button-link__arrow-right">Морская прогулка в Геленджик</span>
                                     </button>
                                 </header>
                                 <dl class="catalog-item__descr">
@@ -142,7 +133,6 @@
                 </div>
                 <article class="catalog__item tablet-item">
                     <div class="catalog-item__content">
-                        <!--<img class="catalog-item__img catalog-item__small-img" src="images/desktop/2.jpg" alt="cruise image">-->
                         <picture class="catalog-item__img">
                             <source media="(max-width: 1300px)" srcset="images/tablet/2.jpg">
                             <img src="images/desktop/2.jpg" alt="cruise image">
@@ -150,7 +140,7 @@
                         <div class="catalog-item__info">
                             <header class="catalog-item__header">
                                 <button class="button-link catalog-item__title" onclick="openPopup(2)">
-                                    <span class="link__arrow-right">Обзорная морская прогулка с экскурсией</span>
+                                    <span class="button-link__arrow-right">Обзорная морская прогулка с экскурсией</span>
                                 </button>
                             </header>
                             <dl class="catalog-item__descr">
@@ -169,7 +159,6 @@
                 </article>
                 <article class="catalog__item tablet-item">
                     <div class="catalog-item__content">
-                        <!--<img class="catalog-item__img catalog-item__small-img" src="images/desktop/3.jpg" alt="cruise image">-->
                         <picture class="catalog-item__img">
                             <!--<source media="(max-width: 1300px)" srcset="images/tablet/3.jpg">-->
                             <img src="images/tablet/3.jpg" alt="cruise image">
@@ -177,7 +166,7 @@
                         <div class="catalog-item__info">
                             <header class="catalog-item__header">
                                 <button class="button-link catalog-item__title" onclick="openPopup(3)">
-                                    <span class="link__arrow-right">Морская прогулка в Геленджик</span>
+                                    <span class="button-link__arrow-right">Морская прогулка в Геленджик</span>
                                 </button>
                             </header>
                             <dl class="catalog-item__descr">
@@ -196,7 +185,6 @@
                 </article>
                 <article class="catalog__item catalog-item">
                     <div class="catalog-item__content">
-                        <!--<img class="catalog-item__img" src="images/desktop/4.jpg" alt="cruise image">-->
                         <picture class="catalog-item__img">
                             <source media="(max-width: 1300px)" srcset="images/tablet/4.jpg">
                             <img src="images/desktop/4.jpg" alt="cruise image">
@@ -204,7 +192,7 @@
                         <div class="catalog-item__info">
                             <header class="catalog-item__header">
                                 <button class="button-link catalog-item__title" onclick="openPopup(4)">
-                                    <span class="link__arrow-right">Морской круиз в Новороссийск</span>
+                                    <span class="button-link__arrow-right">Морской круиз в Новороссийск</span>
                                 </button>
                             </header>
                             <dl class="catalog-item__descr">
@@ -221,14 +209,13 @@
                 </article>
                 <article class="catalog__item catalog__item--last catalog-item">
                     <div class="catalog-item__content">
-                        <!--<img class="catalog-item__img" src="images/desktop/5.jpg" alt="cruise image">-->
                         <picture class="catalog-item__img">
                             <img src="images/desktop/5.jpg" alt="cruise image">
                         </picture>
                         <div class="catalog-item__info">
                             <header class="catalog-item__header">
                                 <button class="button-link catalog-item__title" onclick="openPopup(5)">
-                                    <span class="link__arrow-right">Морская прогулка в Абрау-Дюрсо</span>
+                                    <span class="button-link__arrow-right">Морская прогулка в Абрау-Дюрсо</span>
                                 </button>
                             </header>
                             <dl class="catalog-item__descr">
@@ -304,6 +291,9 @@
             </div>
         </div>
     </div>
+    <template id="card-template">
+
+    </template>
     <script src="script.js"></script>
 </body>
 </html>

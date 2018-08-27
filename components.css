@@ -1,5 +1,30 @@
+html, body, nav, menu {
+    padding: 0;
+    margin: 0;
+}
+div, article {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, p, span, ul {
+    margin: 0;
+    padding: 0;
+}
+a:focus, button:focus {
+    outline: none;
+}
+
+.wrapper {
+    max-width: 68%;
+    margin: 0 auto;
+}
 .link {
     cursor: pointer;
+}
+.link:focus {
+    text-decoration: underline;
 }
 .main-link {
     font-family: 'Raleway', sans-serif;
@@ -7,24 +32,6 @@
     font-size: 16px;
     color: #0d3351;
 }
-.link__arrow-up, .link__arrow-right {
-    position: relative;
-}
-.link__arrow-up:after {
-    content: '▼';
-    font-size: 12px;
-    color: #0d3351;
-    padding-left: 6px;
-}
-.link__arrow-right:after {
-    position: absolute;
-    content: '⯈';
-    font-size: 12px;
-    top: 5px;
-    right: -25px;
-    color: #33c7fd;
-}
-
 
 .button {
     font-family: 'Raleway', sans-serif;
@@ -38,36 +45,43 @@
     cursor: pointer;
     padding: 16px 55px;
 }
-
+.button:hover, .button:focus, .button:active {
+    outline: 1px solid rgba(255,255,255,0.4);
+}
 
 .button-link {
-    background: transparent;
-    border: none;
-    text-align: left;
-    padding: 0;
-}
-.button-link__span {
-    position: relative;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-size: 16px;
     color: #0d3351;
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 0;
+    cursor: pointer;
 }
-.button-link__arrow-right {
-    position: absolute;
-    content: '⯈';
-    font-size: 12px;
-    top: 5px;
-    right: -25px;
-    color: #33c7fd;
+.button-link:focus {
+    text-decoration: underline;
 }
-.button-arrow {
-    padding: 16px 40px;
+.button-link__arrow-down {
+    position: relative;
 }
-.button-arrow:after {
+.button-link__arrow-down:after {
     content: '▼';
     font-size: 10px;
     padding-left: 15px;
+}
+/*.button-link__arrow-right {
+    position: relative;
+}*/
+.button-link__arrow-right:after {
+    content: '⯈';
+    font-size: 12px;
+    color: #33c7fd;
+    padding-left: 15px;
+}
+.button-arrow {
+    padding: 16px 40px;
 }
 
 
